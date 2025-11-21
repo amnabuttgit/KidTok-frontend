@@ -4,7 +4,9 @@
     "strict": true,
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    // 👇 ADD THIS LINE
+    "jsx": "react-native" 
   },
   "include": [
     "**/*.ts",

@@ -79,15 +79,16 @@ const checkNetworkStatus = async (): Promise<boolean> => {
 // Maximum number of videos user can select for free
 const MAX_FREE_SELECTIONS = 5;
 
-// URL to get videos from backend server
-const BACKEND_URL = 'http://10.11.24.93:3001/api/videos';
+// ForYouScreen.tsx
+// url
+const BACKEND_URL = 'https://mykidtokapp-aspeivism9-amnas-projects-9ac5f77d.vercel.app/api/videos';
 
 // URL to create payment on backend server
-const STRIPE_PAYMENT_URL = 'http://10.11.24.93:3001/api/create-payment';
+const STRIPE_PAYMENT_URL = 'https://mykidtokapp-aspeivism9-amnas-projects-9ac5f77d.vercel.app/api/create-payment';
 
 // URL to confirm payment on backend server
-const STRIPE_CONFIRM_URL = 'http://10.11.24.93:3001/api/confirm-payment';
-
+const STRIPE_CONFIRM_URL = 'https://mykidtokapp-aspeivism9-amnas-projects-9ac5f77d.vercel.app/api/confirm-payment';
+// ...
 // --- Component Definition ---
 // Main component function (React.FC means React Function Component)
 const ForYouScreen: React.FC = () => {
